@@ -1,0 +1,16 @@
+{
+    "TestCase_id":"1",
+    "Title":"Creating a user account when the User Name text box is not filled in",
+"Steps":
+{
+"1":"Log in as an Administrator: User Name: TestAdmin; Password: Password1@",
+"2":"Click on the Login button",
+"3":"Click on the Account Administration tab",
+"4":"Click on the Create Account button",
+"5":"Leave the User Name text box empty",
+"6":"Enter data Password123@ in Password text box",
+"7":"Enter the data Password123@ in the * Confirm Passwordtext box",
+"8":"Click on the Sign Up button"
+},
+"Expected Result":" A warning window popped up with the message:  'Please enter the user name' "
+}
