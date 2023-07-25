@@ -1,0 +1,44 @@
+{"Bug_id":"1",
+"Priority":"Low",
+"Summary":"On the mobile version of the main page, the logos of brends that use Claspo are twitching in a slider",
+"Steps to reproduce":
+{
+    "1":"Open https://claspo.io/ on mobile",
+    "2":"Scroll to 'The brands that already successfully
+    use Claspo'"
+},
+"Actual Result":"Logos twitch when moving",
+"Expected Result":"Logos move smoothly in the slider"
+
+},
+{"Bug_id":"2",
+"Priority":"Low",
+"Summary":"Quick filters. Mobile. When we scroll through the filters without using the Back and Forward buttons, these buttons do not disabled when the end of the filters list is reached",
+"Steps to reproduce":
+{
+    "1":"Open https://claspo.io/templates/ on mobile",
+    "2":"Start scrolling through the filters",
+    "3":"Scroll them to the end of the filters list"
+},
+"Actual Result":"When we scroll through the filters without using the Back and Forward buttons, these buttons do not disabled when the end of the filters list is reached",
+"Expected Result":"We sould disable buttons when end of the filters list is reached"
+
+},
+{"Bug_id":"3",
+"Priority":"Medium",
+"Summary":"Getting error message when I try to move to a blog category from admin panel Claspo",
+"Pre-conditions":
+{
+"1":"Admin login to admin panel",
+"2":"Admin create a new article category named 'new category'",
+"3":"Admin change status of 'new category' category from Draft to Publish and save the changes"
+}
+"Steps to reproduce":
+{
+"1":"Click the 'view' button next to the 'new category' category name in the general table of the 'Article category' entity"
+
+},
+"Actual Result":"when I click on the 'view' button, the page opens with the following 500 error ",
+"Expected Result":"If I click on the 'view' button near the blog category, the category page will open on site"
+
+}
